@@ -13,7 +13,7 @@ app.listen(port, function() {
 
 
 var express = require('express');
-var fs = require('File System');
+var fs = require('fs');
 
 var app = express.createServer(express.logger());
 
